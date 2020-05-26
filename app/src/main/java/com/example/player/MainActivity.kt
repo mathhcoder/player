@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
 
             timeLabel = "$min:"
             if(sec < 10){
-                timeLabel += "0"
+                timeLabel += "000"
             }
             timeLabel += sec
             return timeLabel
